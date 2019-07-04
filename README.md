@@ -33,4 +33,6 @@ en donde declares un menú para que el usuario inserte elementos y después haga
 ## Ejercicio 5  
 Realiza el programa completo para la búsqueda de un elemento, con el método de búsqueda en árboles binarios,  
 en donde declares un menú para que el usuario inserte elementos y después haga una búsqueda.  
-Recuerda las reglas para insertar elementos mayores o menores al nodo padre.
+Recuerda las reglas para insertar elementos mayores o menores al nodo padre.  
+
+# Se anexan apuntes del curso de Estructuras de Datos

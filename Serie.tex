@@ -1,0 +1,85 @@
+\documentclass{article}
+
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{vmargin}
+\usepackage{graphicx}
+
+\author{Armando Rivera}
+\title{Serie de Ejercicios\\Estructuras de Datos en C}
+
+\begin{document}
+	\maketitle
+	\section{\textbf{Ejercicio 1}}  
+	Implementar un programa usando cola y nodos, en el que al momento de ejecutarlo se muestra un menú con las siguientes funciones\\
+	\begin{itemize}
+		\item  Extraer un nombre  
+		\item  Insertar 4 nombres  
+		\item  Extraer 2 nombres  
+		\item  Extraer 3 nombres  
+		\item  Ver el contenido de la cola
+		\item  Salir del programa		
+	\end{itemize}
+	El programa no debe terminar hasta que el usuario ingrese la opción de salir del programa.
+	\section{\textbf{Ejercicio 2}}
+	Desarrolla en Lenguaje C el programa de un grafo que almacene los estados de la República Mexicana y sus estados vecinos. El programa tendrá las siguientes funciones.
+	\begin{itemize}
+		\item Ver estados de la república (Imprime todos los estados de la república).
+		\item Ver con qué estados hace frontera un estado. (Recibe un estado e imprime los estados con los que hace frontera)
+		\item Salir del programa.
+	\end{itemize}
+	\section{\textbf{Ejercicio 3}}
+	Desarrolla en Lenguaje C el programa de una lista doblemente ligada que ordene alfabéticamente una lista de canciones que a ti te gusten (mínimo 20 canciones).\\
+	En el main poner 20 veces la función insertar dato, pasando como parámetro el nombre de las canciones en desorden,  la lista deberá tener una función de insertar dato en orden, es decir la lista automáticamente insertará los datos en la posición X de tal manera que se ordenen en orden alfabético.\\
+	Imprimir la lista en desorden y en orden.
+	\section{\textbf{Ejercicio 4}}
+	Realiza el programa implementando la estructura de datos que le sea conveniente (pila, cola o lista) para la búsqueda de un elemento, en donde declares un menú para que el usuario inserte elementos y después haga una búsqueda de cierto elemento, si lo encuentra el programa deberá devolver la posición donde lo encontró, el primer elemento ingresado ocupara la posición 1, el segundo elemento ingresado ocupará la posición 2 y así sucesivamente. El menú deberá contener las siguientes opciones.
+	\begin{itemize}
+		\item Insertar datos.
+		\item Realizar una búsqueda.
+		\item Imprimir los datos.
+		\item Salir del programa.
+	\end{itemize}
+	
+	\section{\textbf{Ejercicio 5}}
+	Realiza el programa completo para la búsqueda de un elemento, con el método de búsqueda en árboles binarios,  
+	en donde declares un menú para que el usuario inserte elementos y después haga una búsqueda.  
+	Recuerda las reglas para insertar elementos mayores o menores al nodo padre. Si se ingresa un dato mayor al nodo padre, éste se guardará del lado izquierdo, de lo contrario del lado derecho. El menú deberá contener las siguientes opciones.
+	\begin{itemize}
+		\item Insertar un valor en el árbol
+		\item Buscar un valor en el árbol.
+		\item Salir del programa.
+	\end{itemize}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=0.5]{img/arbol}
+		\caption{Árbol binario}
+		\label{Fig:Arbol}
+	\end{figure}
+\section{\textbf{Ejercicio 6}}
+Simular una fila de personas esperando para ser atendidas en la tortillería. El único dato que se requiere guardar es el nombre de las personas en la fila, por lo que el tipo de dato a usar sera (char *). Se debe proveer un menú con las siguientes operaciones:
+\begin{itemize}
+	\item Añadir un nuevo cliente al final de la cola.
+	\item  Despachar al primer cliente de la cola, preguntándole cuantos kilos quiere y luego imprimiendo el total (asumiendo un precio de 16 pesos / kilo).
+	\item Terminar el programa.
+\end{itemize}
+\section{\textbf{Ejercicio 7}}
+Usar una pila para realizar los siguientes ejercicios.
+\subsection{Ejercicio 7.1}
+Leer una cadena e imprimirla en orden inverso.\\ \textit{Pista}: De la pila los elementos YA salen en orden inverso a como entran.
+\subsection{Ejercicio 7.2}
+Escribir un programa que lea una serie de paréntesis, llaves y corchetes (), \{\} y [] y determinar si estos están balanceados.
+\subsection{Ejercicio 7.3}
+Calcular el n-ésimo término de la serie de fibonacci.\\\textit{Pista} La pila estará metiendo los números, el n-ésimo termino es el que está en el tope.
+\section{Ejercicio 8}
+Realizar un programa con un arreglo de cadenas de caracteres que tenga el siguiente menú
+\begin{itemize}
+	\item Imprimir lista.
+	\item Ordenar lista ascendente.
+	\item Ordenar lista descendente.
+	\item Salir del programa
+\end{itemize}
+El programa ya deberá contener las palabras guardadas en el arreglo (mínimo 10), no es necesario pedirlas al usuario, cuando el usuario ingrese la opción de ordenar lista, la lista se ordenará automáticamente en orden alfabético, cuando seleccione la opción Ordenar lista descendente, la lista se ordenará de la Z-A.
+\section{Consideraciones}
+Realizar 4 ejercicios, si se desea hacer más de 4 se tomará como puntos extra.\\Mandar los archivos .c y .h en un archivo comprimido\\Para dudas nuestros contactos se encuentran en la plataforma.\\ Debido a que las constancias tardan en llegar, a manera de incentivo a las 5 personas con la calificación más alta les enviaré códigos para tomar 60 cursos gratuitos en línea desde la plataforma de \textit{udemy}.\\La fecha límite para entregar estos ejercicios es el día 21 de julio antes de la media noche.\\Una semana después de la entrega publicaré sus calificaciones en la plataforma.
+\end{document}
